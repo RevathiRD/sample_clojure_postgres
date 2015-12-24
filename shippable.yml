@@ -4,10 +4,12 @@ build_image: drydock/u12cloall:tip
 
 lein:
   - lein2
+services:
+  -postgres
 
 # Addons used by app
-addons:
-  postgresql: "9.3"
+#addons:
+ # postgresql: "9.3"
 
 # Create directories for test and coverage reports; Create 'test' Postgres database
 before_script:

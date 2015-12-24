@@ -19,3 +19,5 @@ script:
   - cd sample
   - lein test2junit
   
+  
+  

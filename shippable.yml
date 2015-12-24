@@ -1,6 +1,8 @@
 # Language setting
 language: clojure
 build_image: drydock/u12clopls:tip
+services:
+  - postgres
 
 lein:
   - lein2

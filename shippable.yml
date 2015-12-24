@@ -5,7 +5,7 @@ build_image: drydock/u12cloall:tip
 lein:
   - lein2
 services:
-  -postgres
+  - postgres
 
 # Addons used by app
 #addons:
